@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#inputArea {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#inputArea:focus {
+    border-color: #333;
+}
+
+.output {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #444;
+}
